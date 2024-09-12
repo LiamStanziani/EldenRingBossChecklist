@@ -1,0 +1,11 @@
+// resizable application window
+// Able to filter the bosses between certain areas in the map (leyndale, caelid, shadow erdtree, etc...)
+// Saves locally automatically when checking off a boss, saved locally when exiting the form app, reloads when opening the form app
+
+// remember to refactor
+// remember to make the UI look better
+
+bugs:
+-searching a hidden checked off boss shows back up again
+- clicking hide all checked off bosses, and then checking a boss doesnt work until you unselect and reselect the option
+- clicking a boss box, and then checking hide all checked bosses, and then clicking reset all checked bosses doesnt show back the boss that was checked and then unchecked
