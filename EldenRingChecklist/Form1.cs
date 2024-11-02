@@ -36,6 +36,8 @@ namespace EldenRingChecklist
             checkedOffList = UpdateData.LoadBossData();
 
             ButtonHelper.SetAllCheckedButtons(this, BossesFlowLayoutPanel, checkedColour);
+            // start location combo box at limgrave selection
+            //LocationComboBox.CurrentItem
         }
 
         private void EldenRingChecklist_FormClosing(object sender, FormClosingEventArgs e)

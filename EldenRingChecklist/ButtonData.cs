@@ -11,6 +11,10 @@ namespace EldenRingChecklist
 {
     internal class ButtonData : EldenRingChecklist
     {
+        /// <summary>
+        /// Set new button template date that will be used for every instantiated button
+        /// </summary>
+        /// <returns></returns>
         public Button CreateNewButton() 
         { 
             Button button = new Button();
