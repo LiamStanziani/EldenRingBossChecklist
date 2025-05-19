@@ -49,9 +49,6 @@ namespace EldenRingChecklist
         {
             Button btn = sender as Button;
 
-            Console.WriteLine(checkedOffList.IndexOf(btn.Name));
-            Console.WriteLine(btn.Name);
-
             if (checkedOffList.IndexOf(btn.Name) == -1) 
             {
                 ButtonHelper.SetClickedButton(btn, checkedColour);
@@ -77,7 +74,6 @@ namespace EldenRingChecklist
             checkedOffList.Clear();
             bossCounter = 0;
             BossCount.Text = bossCounter.ToString();
-            //checkedOffBoss = false;
         }
 
         private void HideAllCheckedBosses_CheckedChanged(object sender, EventArgs e)
