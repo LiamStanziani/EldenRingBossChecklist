@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Windows.Forms;
 
 namespace EldenRingChecklist
@@ -49,7 +50,10 @@ namespace EldenRingChecklist
                 for (int i = 0; i < matchedArray.Length; i++)
                 {
                     Button tempButton = buttonData.CreateNewButton();
-                    tempButton.Name = matchedArray[i];
+                    // Setting name to matched boss plus the location string (so that multiple of the same named
+                    // bosses can exist at the same time
+                    tempButton.Name = matchedArray[i] + location;
+                    Console.WriteLine(tempButton.Name);
                     tempButton.Text = matchedArray[i];
                     bossList.Add(tempButton);
                 }

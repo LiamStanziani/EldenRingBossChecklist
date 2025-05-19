@@ -22,8 +22,6 @@ namespace EldenRingChecklist
         {
             InitializeComponent();
 
-            Console.WriteLine("init");
-
             checkedOffList = new List<string>();
             bossButtonList = new List<Button>();
             bossCounter = 0;
@@ -118,7 +116,6 @@ namespace EldenRingChecklist
                 {
                     ButtonHelper.SetClickedButton(bossButtonList[i], checkedColour);
                 }
-
 
                 BossesFlowLayoutPanel.Controls.Add(bossButtonList[i]);
             }
