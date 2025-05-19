@@ -109,6 +109,7 @@ namespace EldenRingChecklist
             {
                 bossButtonList[i].Click += Boss_Clicked;
 
+                // Set colour of the checked and unchecked buttons
                 if (checkedOffList.IndexOf(bossButtonList[i].Name) == -1)
                 {
                     ButtonHelper.SetClickedButton(bossButtonList[i], unCheckedColour);
@@ -116,6 +117,20 @@ namespace EldenRingChecklist
                 else
                 {
                     ButtonHelper.SetClickedButton(bossButtonList[i], checkedColour);
+                }
+
+                // Hid or unhid all checked buttons if option is set or not
+                if (!hideCheckedOffBosses)
+                {
+                    ButtonHelper.ToggleCheckedButtonStates(this, BossesFlowLayoutPanel, true);
+
+                    hideCheckedOffBosses = true;
+                }
+                else
+                {
+                    ButtonHelper.ToggleCheckedButtonStates(this, BossesFlowLayoutPanel, false);
+
+                    hideCheckedOffBosses = false;
                 }
 
                 BossesFlowLayoutPanel.Controls.Add(bossButtonList[i]);
