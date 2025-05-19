@@ -8,3 +8,13 @@ C:\Users\fangt\Desktop\Dark Souls Mods\EldenRingChecklist\EldenRingChecklist\obj
 C:\Users\fangt\Desktop\Dark Souls Mods\EldenRingChecklist\EldenRingChecklist\obj\Debug\EldenRingChecklist.csproj.CoreCompileInputs.cache
 C:\Users\fangt\Desktop\Dark Souls Mods\EldenRingChecklist\EldenRingChecklist\obj\Debug\EldenRingChecklist.exe
 C:\Users\fangt\Desktop\Dark Souls Mods\EldenRingChecklist\EldenRingChecklist\obj\Debug\EldenRingChecklist.pdb
+C:\Users\fangt\Documents\GitHub\EldenRingBossChecklist\EldenRingChecklist\bin\Debug\EldenRingChecklist.exe.config
+C:\Users\fangt\Documents\GitHub\EldenRingBossChecklist\EldenRingChecklist\bin\Debug\EldenRingChecklist.exe
+C:\Users\fangt\Documents\GitHub\EldenRingBossChecklist\EldenRingChecklist\bin\Debug\EldenRingChecklist.pdb
+C:\Users\fangt\Documents\GitHub\EldenRingBossChecklist\EldenRingChecklist\obj\Debug\EldenRingChecklist.csproj.AssemblyReference.cache
+C:\Users\fangt\Documents\GitHub\EldenRingBossChecklist\EldenRingChecklist\obj\Debug\EldenRingChecklist.EldenRingChecklist.resources
+C:\Users\fangt\Documents\GitHub\EldenRingBossChecklist\EldenRingChecklist\obj\Debug\EldenRingChecklist.Properties.Resources.resources
+C:\Users\fangt\Documents\GitHub\EldenRingBossChecklist\EldenRingChecklist\obj\Debug\EldenRingChecklist.csproj.GenerateResource.cache
+C:\Users\fangt\Documents\GitHub\EldenRingBossChecklist\EldenRingChecklist\obj\Debug\EldenRingChecklist.csproj.CoreCompileInputs.cache
+C:\Users\fangt\Documents\GitHub\EldenRingBossChecklist\EldenRingChecklist\obj\Debug\EldenRingChecklist.exe
+C:\Users\fangt\Documents\GitHub\EldenRingBossChecklist\EldenRingChecklist\obj\Debug\EldenRingChecklist.pdb

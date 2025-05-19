@@ -49,6 +49,7 @@ namespace EldenRingChecklist
                 for (int i = 0; i < matchedArray.Length; i++)
                 {
                     Button tempButton = buttonData.CreateNewButton();
+                    tempButton.Name = matchedArray[i];
                     tempButton.Text = matchedArray[i];
                     bossList.Add(tempButton);
                 }
