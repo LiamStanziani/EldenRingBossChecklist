@@ -16,18 +16,17 @@ namespace EldenRingChecklist
 
         private int bossCounter;
 
-        private bool checkedOffBoss;
-
         private bool hideCheckedOffBosses;
 
         public EldenRingChecklist()
         {
             InitializeComponent();
 
+            Console.WriteLine("init");
+
             checkedOffList = new List<string>();
             bossButtonList = new List<Button>();
             bossCounter = 0;
-            checkedOffBoss = false;
             hideCheckedOffBosses = false;
         }
 
@@ -109,6 +108,18 @@ namespace EldenRingChecklist
 
             for (int i = 0; i < bossButtonList.Count; i++)
             {
+                bossButtonList[i].Click += Boss_Clicked;
+
+                if (checkedOffList.IndexOf(bossButtonList[i].Name) == -1)
+                {
+                    ButtonHelper.SetClickedButton(bossButtonList[i], unCheckedColour);
+                }
+                else
+                {
+                    ButtonHelper.SetClickedButton(bossButtonList[i], checkedColour);
+                }
+
+
                 BossesFlowLayoutPanel.Controls.Add(bossButtonList[i]);
             }
         }

@@ -9,7 +9,7 @@ using System.Windows.Forms;
 
 namespace EldenRingChecklist
 {
-    internal class ButtonData : EldenRingChecklist
+    internal class ButtonData
     {
         /// <summary>
         /// Set new button template date that will be used for every instantiated button
@@ -27,7 +27,6 @@ namespace EldenRingChecklist
             button.Size = new Size(128, 114);
             button.Text = "Placeholder";
             button.UseVisualStyleBackColor = true;
-            button.Click += Boss_Clicked;
             return button;
         }
     }
