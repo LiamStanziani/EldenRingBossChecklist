@@ -51,9 +51,8 @@ namespace EldenRingChecklist
                 {
                     Button tempButton = buttonData.CreateNewButton();
                     // Setting name to matched boss plus the location string (so that multiple of the same named
-                    // bosses can exist at the same time
-                    tempButton.Name = matchedArray[i] + location;
-                    Console.WriteLine(tempButton.Name);
+                    // bosses can exist at the same time)
+                    tempButton.Name = location + " " + matchedArray[i];
                     tempButton.Text = matchedArray[i];
                     bossList.Add(tempButton);
                 }

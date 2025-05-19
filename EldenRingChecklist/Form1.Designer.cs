@@ -42,6 +42,7 @@
             this.BossesFlowLayoutPanel = new System.Windows.Forms.FlowLayoutPanel();
             this.LocationComboBox = new System.Windows.Forms.ComboBox();
             this.LocationsLabel = new System.Windows.Forms.Label();
+            this.Division = new System.Windows.Forms.Label();
             this.GroupBoxTools.SuspendLayout();
             this.BossesFlowLayoutPanel.SuspendLayout();
             this.SuspendLayout();
@@ -71,10 +72,11 @@
             this.GroupBoxTools.Controls.Add(this.BossNameLabel);
             this.GroupBoxTools.Controls.Add(this.BossNameTextBox);
             this.GroupBoxTools.Controls.Add(this.BossCount);
-            this.GroupBoxTools.Controls.Add(this.BossCountMax);
             this.GroupBoxTools.Controls.Add(this.BossCounterLabel);
             this.GroupBoxTools.Controls.Add(this.checkBox1);
             this.GroupBoxTools.Controls.Add(this.ResetCheckedBosses);
+            this.GroupBoxTools.Controls.Add(this.Division);
+            this.GroupBoxTools.Controls.Add(this.BossCountMax);
             this.GroupBoxTools.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.GroupBoxTools.Location = new System.Drawing.Point(12, 3);
             this.GroupBoxTools.Name = "GroupBoxTools";
@@ -104,29 +106,33 @@
             // 
             this.BossCount.AutoSize = true;
             this.BossCount.Font = new System.Drawing.Font("Sitka Small", 11F, System.Drawing.FontStyle.Bold);
-            this.BossCount.Location = new System.Drawing.Point(168, 63);
+            this.BossCount.Location = new System.Drawing.Point(164, 44);
+            this.BossCount.Margin = new System.Windows.Forms.Padding(0);
             this.BossCount.Name = "BossCount";
-            this.BossCount.Size = new System.Drawing.Size(31, 28);
+            this.BossCount.Size = new System.Drawing.Size(25, 28);
             this.BossCount.TabIndex = 7;
-            this.BossCount.Text = "0 ";
+            this.BossCount.Text = "0";
             // 
             // BossCountMax
             // 
             this.BossCountMax.AutoSize = true;
             this.BossCountMax.Font = new System.Drawing.Font("Sitka Small", 11F, System.Drawing.FontStyle.Bold);
             this.BossCountMax.ForeColor = System.Drawing.Color.AntiqueWhite;
-            this.BossCountMax.Location = new System.Drawing.Point(214, 63);
+            this.BossCountMax.Location = new System.Drawing.Point(164, 80);
+            this.BossCountMax.Margin = new System.Windows.Forms.Padding(0);
             this.BossCountMax.Name = "BossCountMax";
-            this.BossCountMax.Size = new System.Drawing.Size(54, 28);
+            this.BossCountMax.Size = new System.Drawing.Size(44, 28);
             this.BossCountMax.TabIndex = 6;
-            this.BossCountMax.Text = "/211";
+            this.BossCountMax.Text = "211";
+            this.BossCountMax.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // BossCounterLabel
             // 
             this.BossCounterLabel.AutoSize = true;
             this.BossCounterLabel.Font = new System.Drawing.Font("Sitka Small", 11F, System.Drawing.FontStyle.Bold);
             this.BossCounterLabel.ForeColor = System.Drawing.Color.AntiqueWhite;
-            this.BossCounterLabel.Location = new System.Drawing.Point(14, 63);
+            this.BossCounterLabel.Location = new System.Drawing.Point(3, 63);
+            this.BossCounterLabel.Margin = new System.Windows.Forms.Padding(0);
             this.BossCounterLabel.Name = "BossCounterLabel";
             this.BossCounterLabel.Size = new System.Drawing.Size(156, 28);
             this.BossCounterLabel.TabIndex = 5;
@@ -218,9 +224,22 @@
             this.LocationsLabel.Location = new System.Drawing.Point(7, 120);
             this.LocationsLabel.Margin = new System.Windows.Forms.Padding(0);
             this.LocationsLabel.Name = "LocationsLabel";
-            this.LocationsLabel.Size = new System.Drawing.Size(118, 28);
+            this.LocationsLabel.Size = new System.Drawing.Size(108, 28);
             this.LocationsLabel.TabIndex = 8;
-            this.LocationsLabel.Text = "Locations:";
+            this.LocationsLabel.Text = "Location:";
+            // 
+            // Division
+            // 
+            this.Division.AutoSize = true;
+            this.Division.Font = new System.Drawing.Font("Sitka Small", 11F, System.Drawing.FontStyle.Bold);
+            this.Division.ForeColor = System.Drawing.Color.AntiqueWhite;
+            this.Division.Location = new System.Drawing.Point(164, 56);
+            this.Division.Margin = new System.Windows.Forms.Padding(0);
+            this.Division.Name = "Division";
+            this.Division.Size = new System.Drawing.Size(45, 28);
+            this.Division.TabIndex = 10;
+            this.Division.Text = "___";
+            this.Division.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // EldenRingChecklist
             // 
@@ -262,6 +281,7 @@
         private System.Windows.Forms.ComboBox LocationComboBox;
         private System.Windows.Forms.Label LocationsLabel;
         private System.Windows.Forms.FlowLayoutPanel BossesFlowLayoutPanel;
+        private System.Windows.Forms.Label Division;
     }
 }
 

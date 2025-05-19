@@ -48,9 +48,6 @@ namespace EldenRingChecklist
             {
                 for (int i = 0; i < form.checkedOffList.Count; i++)
                 {
-                    Console.WriteLine(btn.Name);
-                    Console.WriteLine(form.checkedOffList[i]);
-
                     if (btn.Name == form.checkedOffList[i])
                     {
                         if (hidden)

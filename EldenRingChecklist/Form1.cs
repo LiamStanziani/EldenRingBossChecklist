@@ -26,6 +26,7 @@ namespace EldenRingChecklist
             bossButtonList = new List<Button>();
             bossCounter = 0;
             hideCheckedOffBosses = false;
+            LocationComboBox.SelectedIndex = 0;
         }
 
         private void EldenRingChecklist_Load(object sender, EventArgs e)
