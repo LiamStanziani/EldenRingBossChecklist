@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\fangt\\Documents\\GitHub\\EldenRingBossChecklist\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6679B944-0C3C-4875-87E2-B579F171C72B}|EldenRingChecklist\\EldenRingChecklist.csproj|C:\\Users\\fangt\\Documents\\GitHub\\EldenRingBossChecklist\\eldenringchecklist\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6679B944-0C3C-4875-87E2-B579F171C72B}|EldenRingChecklist\\EldenRingChecklist.csproj|solutionrelative:eldenringchecklist\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{6679B944-0C3C-4875-87E2-B579F171C72B}|EldenRingChecklist\\EldenRingChecklist.csproj|C:\\Users\\fangt\\Documents\\GitHub\\EldenRingBossChecklist\\eldenringchecklist\\updatedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6679B944-0C3C-4875-87E2-B579F171C72B}|EldenRingChecklist\\EldenRingChecklist.csproj|solutionrelative:eldenringchecklist\\updatedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6679B944-0C3C-4875-87E2-B579F171C72B}|EldenRingChecklist\\EldenRingChecklist.csproj|c:\\users\\fangt\\documents\\github\\eldenringbosschecklist\\eldenringchecklist\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6679B944-0C3C-4875-87E2-B579F171C72B}|EldenRingChecklist\\EldenRingChecklist.csproj|solutionrelative:eldenringchecklist\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6679B944-0C3C-4875-87E2-B579F171C72B}|EldenRingChecklist\\EldenRingChecklist.csproj|C:\\Users\\fangt\\Documents\\GitHub\\EldenRingBossChecklist\\eldenringchecklist\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6679B944-0C3C-4875-87E2-B579F171C72B}|EldenRingChecklist\\EldenRingChecklist.csproj|solutionrelative:eldenringchecklist\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6679B944-0C3C-4875-87E2-B579F171C72B}|EldenRingChecklist\\EldenRingChecklist.csproj|C:\\Users\\fangt\\Documents\\GitHub\\EldenRingBossChecklist\\eldenringchecklist\\bossdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{6679B944-0C3C-4875-87E2-B579F171C72B}|EldenRingChecklist\\EldenRingChecklist.csproj|C:\\Users\\fangt\\Documents\\GitHub\\EldenRingBossChecklist\\eldenringchecklist\\buttonhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6679B944-0C3C-4875-87E2-B579F171C72B}|EldenRingChecklist\\EldenRingChecklist.csproj|solutionrelative:eldenringchecklist\\buttonhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6679B944-0C3C-4875-87E2-B579F171C72B}|EldenRingChecklist\\EldenRingChecklist.csproj|C:\\Users\\fangt\\Documents\\GitHub\\EldenRingBossChecklist\\eldenringchecklist\\updatedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6679B944-0C3C-4875-87E2-B579F171C72B}|EldenRingChecklist\\EldenRingChecklist.csproj|solutionrelative:eldenringchecklist\\updatedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6679B944-0C3C-4875-87E2-B579F171C72B}|EldenRingChecklist\\EldenRingChecklist.csproj|C:\\Users\\fangt\\Documents\\GitHub\\EldenRingBossChecklist\\eldenringchecklist\\buttondata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,7 +42,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "BossData.cs",
               "DocumentMoniker": "C:\\Users\\fangt\\Documents\\GitHub\\EldenRingBossChecklist\\EldenRingChecklist\\BossData.cs",
               "RelativeDocumentMoniker": "EldenRingChecklist\\BossData.cs",
@@ -55,7 +55,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\fangt\\Documents\\GitHub\\EldenRingBossChecklist\\EldenRingChecklist\\Form1.cs",
               "RelativeDocumentMoniker": "EldenRingChecklist\\Form1.cs",
@@ -73,27 +73,27 @@
               "RelativeDocumentMoniker": "EldenRingChecklist\\Form1.cs",
               "ToolTip": "C:\\Users\\fangt\\Documents\\GitHub\\EldenRingBossChecklist\\EldenRingChecklist\\Form1.cs",
               "RelativeToolTip": "EldenRingChecklist\\Form1.cs",
-              "ViewState": "AgIAAIMAAAAAAAAAAAArwIkAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABoAAAAAAAAAAIAwwIkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-02T22:23:54.277Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "UpdateData.cs",
               "DocumentMoniker": "C:\\Users\\fangt\\Documents\\GitHub\\EldenRingBossChecklist\\EldenRingChecklist\\UpdateData.cs",
               "RelativeDocumentMoniker": "EldenRingChecklist\\UpdateData.cs",
               "ToolTip": "C:\\Users\\fangt\\Documents\\GitHub\\EldenRingBossChecklist\\EldenRingChecklist\\UpdateData.cs",
               "RelativeToolTip": "EldenRingChecklist\\UpdateData.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAQwCYAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwB0AAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-02T22:23:54.371Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ButtonHelper.cs",
               "DocumentMoniker": "C:\\Users\\fangt\\Documents\\GitHub\\EldenRingBossChecklist\\EldenRingChecklist\\ButtonHelper.cs",
               "RelativeDocumentMoniker": "EldenRingChecklist\\ButtonHelper.cs",

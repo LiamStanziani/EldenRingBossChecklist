@@ -72,7 +72,7 @@
             this.GroupBoxTools.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.GroupBoxTools.Location = new System.Drawing.Point(12, 3);
             this.GroupBoxTools.Name = "GroupBoxTools";
-            this.GroupBoxTools.Size = new System.Drawing.Size(1000, 111);
+            this.GroupBoxTools.Size = new System.Drawing.Size(1038, 111);
             this.GroupBoxTools.TabIndex = 6;
             this.GroupBoxTools.TabStop = false;
             // 
@@ -80,7 +80,7 @@
             // 
             this.BossNameLabel.AutoSize = true;
             this.BossNameLabel.Font = new System.Drawing.Font("Sitka Small", 11F, System.Drawing.FontStyle.Bold);
-            this.BossNameLabel.Location = new System.Drawing.Point(295, 45);
+            this.BossNameLabel.Location = new System.Drawing.Point(342, 45);
             this.BossNameLabel.Name = "BossNameLabel";
             this.BossNameLabel.Size = new System.Drawing.Size(127, 28);
             this.BossNameLabel.TabIndex = 9;
@@ -88,7 +88,7 @@
             // 
             // BossNameTextBox
             // 
-            this.BossNameTextBox.Location = new System.Drawing.Point(428, 50);
+            this.BossNameTextBox.Location = new System.Drawing.Point(475, 50);
             this.BossNameTextBox.Name = "BossNameTextBox";
             this.BossNameTextBox.Size = new System.Drawing.Size(190, 22);
             this.BossNameTextBox.TabIndex = 8;
@@ -98,7 +98,7 @@
             // 
             this.BossCount.AutoSize = true;
             this.BossCount.Font = new System.Drawing.Font("Sitka Small", 11F, System.Drawing.FontStyle.Bold);
-            this.BossCount.Location = new System.Drawing.Point(164, 44);
+            this.BossCount.Location = new System.Drawing.Point(211, 44);
             this.BossCount.Margin = new System.Windows.Forms.Padding(0);
             this.BossCount.Name = "BossCount";
             this.BossCount.Size = new System.Drawing.Size(25, 28);
@@ -110,7 +110,7 @@
             this.BossCounterLabel.AutoSize = true;
             this.BossCounterLabel.Font = new System.Drawing.Font("Sitka Small", 11F, System.Drawing.FontStyle.Bold);
             this.BossCounterLabel.ForeColor = System.Drawing.Color.AntiqueWhite;
-            this.BossCounterLabel.Location = new System.Drawing.Point(3, 63);
+            this.BossCounterLabel.Location = new System.Drawing.Point(50, 63);
             this.BossCounterLabel.Margin = new System.Windows.Forms.Padding(0);
             this.BossCounterLabel.Name = "BossCounterLabel";
             this.BossCounterLabel.Size = new System.Drawing.Size(156, 28);
@@ -122,7 +122,7 @@
             this.checkBox1.AutoSize = true;
             this.checkBox1.Font = new System.Drawing.Font("Sitka Small", 11F, System.Drawing.FontStyle.Bold);
             this.checkBox1.ForeColor = System.Drawing.Color.AntiqueWhite;
-            this.checkBox1.Location = new System.Drawing.Point(19, 21);
+            this.checkBox1.Location = new System.Drawing.Point(66, 21);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(238, 32);
             this.checkBox1.TabIndex = 4;
@@ -135,7 +135,7 @@
             this.ResetCheckedBosses.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.ResetCheckedBosses.Font = new System.Drawing.Font("Sitka Small", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ResetCheckedBosses.ForeColor = System.Drawing.Color.AntiqueWhite;
-            this.ResetCheckedBosses.Location = new System.Drawing.Point(659, 21);
+            this.ResetCheckedBosses.Location = new System.Drawing.Point(706, 21);
             this.ResetCheckedBosses.Name = "ResetCheckedBosses";
             this.ResetCheckedBosses.Size = new System.Drawing.Size(325, 70);
             this.ResetCheckedBosses.TabIndex = 3;
@@ -148,7 +148,7 @@
             this.Division.AutoSize = true;
             this.Division.Font = new System.Drawing.Font("Sitka Small", 11F, System.Drawing.FontStyle.Bold);
             this.Division.ForeColor = System.Drawing.Color.AntiqueWhite;
-            this.Division.Location = new System.Drawing.Point(164, 56);
+            this.Division.Location = new System.Drawing.Point(211, 56);
             this.Division.Margin = new System.Windows.Forms.Padding(0);
             this.Division.Name = "Division";
             this.Division.Size = new System.Drawing.Size(45, 28);
@@ -161,7 +161,7 @@
             this.BossCountMax.AutoSize = true;
             this.BossCountMax.Font = new System.Drawing.Font("Sitka Small", 11F, System.Drawing.FontStyle.Bold);
             this.BossCountMax.ForeColor = System.Drawing.Color.AntiqueWhite;
-            this.BossCountMax.Location = new System.Drawing.Point(164, 80);
+            this.BossCountMax.Location = new System.Drawing.Point(211, 80);
             this.BossCountMax.Margin = new System.Windows.Forms.Padding(0);
             this.BossCountMax.Name = "BossCountMax";
             this.BossCountMax.Size = new System.Drawing.Size(44, 28);
@@ -176,7 +176,7 @@
             this.BossesFlowLayoutPanel.Controls.Add(this.PlaceholderButton);
             this.BossesFlowLayoutPanel.Location = new System.Drawing.Point(12, 156);
             this.BossesFlowLayoutPanel.Name = "BossesFlowLayoutPanel";
-            this.BossesFlowLayoutPanel.Size = new System.Drawing.Size(1000, 508);
+            this.BossesFlowLayoutPanel.Size = new System.Drawing.Size(1038, 508);
             this.BossesFlowLayoutPanel.TabIndex = 7;
             // 
             // LocationComboBox
@@ -219,7 +219,7 @@
             "Enir-Ilim"});
             this.LocationComboBox.Location = new System.Drawing.Point(140, 120);
             this.LocationComboBox.Name = "LocationComboBox";
-            this.LocationComboBox.Size = new System.Drawing.Size(872, 31);
+            this.LocationComboBox.Size = new System.Drawing.Size(910, 31);
             this.LocationComboBox.TabIndex = 1;
             this.LocationComboBox.SelectedIndexChanged += new System.EventHandler(this.LocationComboBox_SelectedIndexChanged);
             // 
