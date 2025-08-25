@@ -48,6 +48,7 @@
             // 
             // PlaceholderButton
             // 
+            this.PlaceholderButton.AutoSize = true;
             this.PlaceholderButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.PlaceholderButton.Font = new System.Drawing.Font("Sitka Small", 13.8F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.PlaceholderButton.ForeColor = System.Drawing.Color.AntiqueWhite;
@@ -192,7 +193,7 @@
             "Caelid",
             "Dragonbarrow",
             "Altus Plateau",
-            "Mt Gelmir",
+            "Mt. Gelmir",
             "Capital Outskirts",
             "Leyndell, Royal Capital",
             "Mountaintops of the Giants",
@@ -207,16 +208,16 @@
             "Lake of Rot",
             "Leyndell, Ashen Capital",
             "Elden Throne",
-            "Gravesite Plain",
-            "Scadu Atlus",
-            "Rauh Base",
-            "Cerulean Coast",
-            "Charo\'s Hidden Grave",
-            "Jagged Peak",
-            "Abyssal Woods",
-            "Scaduview",
-            "Ancient Ruins of Rauh",
-            "Enir-Ilim"});
+            "Gravesite Plain (DLC)",
+            "Scadu Altus (DLC)",
+            "Rauh Base (DLC)",
+            "Cerulean Coast (DLC)",
+            "Charo\'s Hidden Grave (DLC)",
+            "Jagged Peak (DLC)",
+            "Abyssal Woods (DLC)",
+            "Scaduview (DLC)",
+            "Ancient Ruins of Rauh (DLC)",
+            "Enir-Ilim (DLC)"});
             this.LocationComboBox.Location = new System.Drawing.Point(140, 120);
             this.LocationComboBox.Name = "LocationComboBox";
             this.LocationComboBox.Size = new System.Drawing.Size(910, 31);
@@ -253,6 +254,7 @@
             this.GroupBoxTools.ResumeLayout(false);
             this.GroupBoxTools.PerformLayout();
             this.BossesFlowLayoutPanel.ResumeLayout(false);
+            this.BossesFlowLayoutPanel.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 

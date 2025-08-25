@@ -27,6 +27,7 @@ namespace EldenRingChecklist
             button.Size = new Size(128, 114);
             button.Text = "Placeholder";
             button.UseVisualStyleBackColor = true;
+            button.AutoSize = true;
             return button;
         }
     }

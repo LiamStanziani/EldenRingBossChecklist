@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
+using System.Reflection;
 using System.Text.Json;
 using System.Windows.Forms;
 
@@ -14,7 +16,14 @@ namespace EldenRingChecklist
         /// </summary>
         static BossData() 
         {
-            //locationArrays = JsonSerializer.Deserialize<Dictionary<string, string[]>>(json);
+            var assembly = Assembly.GetExecutingAssembly();
+
+            using (var stream = assembly.GetManifestResourceStream("EldenRingChecklist.Resources.FullBossList.json"))
+            using (var reader = new StreamReader(stream))
+            {
+                string json = reader.ReadToEnd();
+                locationArrays = JsonSerializer.Deserialize<Dictionary<string, string[]>>(json);
+            }
         }
 
         /// <summary>

@@ -59,15 +59,5 @@ namespace EldenRingChecklist.Properties {
                 resourceCulture = value;
             }
         }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap beastman_of_farum_azula1 {
-            get {
-                object obj = ResourceManager.GetObject("beastman-of-farum-azula1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
     }
 }
