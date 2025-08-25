@@ -6,7 +6,7 @@ namespace EldenRingChecklist
     internal class UpdateData
     {
         /// <summary>
-        /// Loads the boss data list from a text file on load
+        /// Loads the boss data list from a preset JSON file on load
         /// </summary>
         /// <returns>string of button names to update the colour of the checked bosses</returns>
         public static List<string> LoadBossData()
@@ -22,7 +22,7 @@ namespace EldenRingChecklist
         }
 
         /// <summary>
-        /// Saves the boss data to a text file on exit 
+        /// Saves the boss data to a JSON file on exit 
         /// of the application
         /// </summary>
         public static void SaveBossData(List<string> bossList)
@@ -33,11 +33,11 @@ namespace EldenRingChecklist
         }
 
         /// <summary>
-        /// Clears the entire text file
+        /// Clears the entire JSON boss checked file
         /// </summary>
         public static void ClearAllBossData()
         {
-            // remove all lines from data text file
+            // remove all lines from data JSON file
         }
     }
 }
