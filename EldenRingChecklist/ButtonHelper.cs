@@ -72,8 +72,6 @@ namespace EldenRingChecklist
         {
             foreach (Button btn in panel.Controls.OfType<Button>())
             {
-                // if button is not visible and checked off bosses is true, i need to make sure that
-                // the button doesn't show here
                 if (btn.Text.ToLower().Contains(textBox.Text.ToLower()))
                 {
                     btn.Show();

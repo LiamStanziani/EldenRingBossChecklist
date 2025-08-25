@@ -54,6 +54,12 @@ namespace EldenRingChecklist
                 checkedOffList.Add(btn.Name);
                 bossCounter++;
                 BossCount.Text = bossCounter.ToString();
+                    
+                if (hideCheckedOffBosses) 
+                {
+                    ButtonHelper.ToggleCheckedButtonStates(this, BossesFlowLayoutPanel, true);
+                }
+
             }
             else 
             {
