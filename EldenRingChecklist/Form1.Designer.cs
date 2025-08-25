@@ -30,19 +30,18 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(EldenRingChecklist));
             this.PlaceholderButton = new System.Windows.Forms.Button();
-            this.ScrollBar = new System.Windows.Forms.VScrollBar();
             this.GroupBoxTools = new System.Windows.Forms.GroupBox();
             this.BossNameLabel = new System.Windows.Forms.Label();
             this.BossNameTextBox = new System.Windows.Forms.TextBox();
             this.BossCount = new System.Windows.Forms.Label();
-            this.BossCountMax = new System.Windows.Forms.Label();
             this.BossCounterLabel = new System.Windows.Forms.Label();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.ResetCheckedBosses = new System.Windows.Forms.Button();
+            this.Division = new System.Windows.Forms.Label();
+            this.BossCountMax = new System.Windows.Forms.Label();
             this.BossesFlowLayoutPanel = new System.Windows.Forms.FlowLayoutPanel();
             this.LocationComboBox = new System.Windows.Forms.ComboBox();
             this.LocationsLabel = new System.Windows.Forms.Label();
-            this.Division = new System.Windows.Forms.Label();
             this.GroupBoxTools.SuspendLayout();
             this.BossesFlowLayoutPanel.SuspendLayout();
             this.SuspendLayout();
@@ -59,13 +58,6 @@
             this.PlaceholderButton.Text = "Placeholder";
             this.PlaceholderButton.UseVisualStyleBackColor = true;
             this.PlaceholderButton.Click += new System.EventHandler(this.Boss_Clicked);
-            // 
-            // ScrollBar
-            // 
-            this.ScrollBar.Location = new System.Drawing.Point(1025, 9);
-            this.ScrollBar.Name = "ScrollBar";
-            this.ScrollBar.Size = new System.Drawing.Size(28, 655);
-            this.ScrollBar.TabIndex = 1;
             // 
             // GroupBoxTools
             // 
@@ -113,19 +105,6 @@
             this.BossCount.TabIndex = 7;
             this.BossCount.Text = "0";
             // 
-            // BossCountMax
-            // 
-            this.BossCountMax.AutoSize = true;
-            this.BossCountMax.Font = new System.Drawing.Font("Sitka Small", 11F, System.Drawing.FontStyle.Bold);
-            this.BossCountMax.ForeColor = System.Drawing.Color.AntiqueWhite;
-            this.BossCountMax.Location = new System.Drawing.Point(164, 80);
-            this.BossCountMax.Margin = new System.Windows.Forms.Padding(0);
-            this.BossCountMax.Name = "BossCountMax";
-            this.BossCountMax.Size = new System.Drawing.Size(44, 28);
-            this.BossCountMax.TabIndex = 6;
-            this.BossCountMax.Text = "211";
-            this.BossCountMax.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // BossCounterLabel
             // 
             this.BossCounterLabel.AutoSize = true;
@@ -164,8 +143,35 @@
             this.ResetCheckedBosses.UseVisualStyleBackColor = true;
             this.ResetCheckedBosses.Click += new System.EventHandler(this.ResetCheckedBosses_Click);
             // 
+            // Division
+            // 
+            this.Division.AutoSize = true;
+            this.Division.Font = new System.Drawing.Font("Sitka Small", 11F, System.Drawing.FontStyle.Bold);
+            this.Division.ForeColor = System.Drawing.Color.AntiqueWhite;
+            this.Division.Location = new System.Drawing.Point(164, 56);
+            this.Division.Margin = new System.Windows.Forms.Padding(0);
+            this.Division.Name = "Division";
+            this.Division.Size = new System.Drawing.Size(45, 28);
+            this.Division.TabIndex = 10;
+            this.Division.Text = "___";
+            this.Division.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // BossCountMax
+            // 
+            this.BossCountMax.AutoSize = true;
+            this.BossCountMax.Font = new System.Drawing.Font("Sitka Small", 11F, System.Drawing.FontStyle.Bold);
+            this.BossCountMax.ForeColor = System.Drawing.Color.AntiqueWhite;
+            this.BossCountMax.Location = new System.Drawing.Point(164, 80);
+            this.BossCountMax.Margin = new System.Windows.Forms.Padding(0);
+            this.BossCountMax.Name = "BossCountMax";
+            this.BossCountMax.Size = new System.Drawing.Size(44, 28);
+            this.BossCountMax.TabIndex = 6;
+            this.BossCountMax.Text = "211";
+            this.BossCountMax.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // BossesFlowLayoutPanel
             // 
+            this.BossesFlowLayoutPanel.AutoScroll = true;
             this.BossesFlowLayoutPanel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.BossesFlowLayoutPanel.Controls.Add(this.PlaceholderButton);
             this.BossesFlowLayoutPanel.Location = new System.Drawing.Point(12, 156);
@@ -228,19 +234,6 @@
             this.LocationsLabel.TabIndex = 8;
             this.LocationsLabel.Text = "Location:";
             // 
-            // Division
-            // 
-            this.Division.AutoSize = true;
-            this.Division.Font = new System.Drawing.Font("Sitka Small", 11F, System.Drawing.FontStyle.Bold);
-            this.Division.ForeColor = System.Drawing.Color.AntiqueWhite;
-            this.Division.Location = new System.Drawing.Point(164, 56);
-            this.Division.Margin = new System.Windows.Forms.Padding(0);
-            this.Division.Name = "Division";
-            this.Division.Size = new System.Drawing.Size(45, 28);
-            this.Division.TabIndex = 10;
-            this.Division.Text = "___";
-            this.Division.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
             // EldenRingChecklist
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -251,7 +244,6 @@
             this.Controls.Add(this.BossesFlowLayoutPanel);
             this.Controls.Add(this.LocationComboBox);
             this.Controls.Add(this.GroupBoxTools);
-            this.Controls.Add(this.ScrollBar);
             this.ForeColor = System.Drawing.Color.AntiqueWhite;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "EldenRingChecklist";
@@ -269,7 +261,6 @@
         #endregion
 
         private System.Windows.Forms.Button PlaceholderButton;
-        private System.Windows.Forms.VScrollBar ScrollBar;
         private System.Windows.Forms.GroupBox GroupBoxTools;
         private System.Windows.Forms.Button ResetCheckedBosses;
         private System.Windows.Forms.Label BossCounterLabel;

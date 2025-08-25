@@ -119,7 +119,7 @@ namespace EldenRingChecklist
                     ButtonHelper.SetClickedButton(bossButtonList[i], checkedColour);
                 }
 
-                // Hid or unhid all checked buttons if option is set or not
+                // Hide or unhide all checked buttons if option is set or not
                 if (!hideCheckedOffBosses)
                 {
                     ButtonHelper.ToggleCheckedButtonStates(this, BossesFlowLayoutPanel, true);
